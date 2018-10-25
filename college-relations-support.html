@@ -1,56 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>College Relations Support</title>
-        <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
-        <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="theme-color" content="#ffffff">
-        <style media="screen">
-            .banana {
-                width: 40%;
-                margin: auto;
-                display: block;
-            }
 
-        </style>
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+<head>
+    <meta charset="UTF-8" />
+    <title>College Relations Support</title>
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <style media="screen">
+        .banana {
+            width: 40%;
+            margin: auto;
+            display: block;
+        }
+    </style>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js" defer></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    </head>
-    <body style="padding: 0rem 1rem;">
-        <h4>Support for the College Relations application</h4>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body style="padding: 0rem 1rem;">
+    <h4>Support for the College Relations application</h4>
+    <div>
+        <p>
+            Gather registration information from college events using this application and send what has been
+            recorded
+            to
+            yourself afterwards.
+            Network connectivity is not necessary to enter and manage registrant information.
+        </p>
+
+        <h5>Locking feature</h5>
+        <p>
+            The application does not initially have a PIN setup. You will need to open the Setup screen from the
+            menu
+            and set
+            a PIN of
+            your preference. Once done, the unlock feature of this application will require the PIN to be entered
+            in
+            order to
+            continue.
+            It is important to set this up first so that accumulated sign in data is not tampered with.
+        </p>
+        <p>
+            Set up the iPad so that the “Guided Access” feature is enabled. See the link below provided from Apple
+            that
+            describes how
+            this can be completed. This will allow you to lock down the iPad when attending events so that no one
+            can
+            access
+            any
+            other applications that are installed.
+        </p>
         <div>
-            <p>
-                Gather registration information from events using this application and send what has been recorded to yourself afterwards. Network connectivity is not necessary to enter and manage registrant information.
-            </p>
-
-            <h5>Locking feature</h5>
-            <p>
-                The application does not initially have a PIN setup. You will need to open the Setup screen from the menu and set a PIN of your preference. Once done, the unlock feature of this application will require the PIN to be entered in order to continue. It
-                is important to set this up first so that sign in data that has accumulated is not tampered with.
-            </p>
-            <p>
-                Set up the iPad so that the “Guided Access” feature is enabled. See the link below provided from Apple that describes how this can be completed. This will allow you to lock down the iPad when attending events so that no one can access any other
-                applications that are installed.
-                <a href="https://support.apple.com/en-us/HT202612">https://support.apple.com/en-us/HT202612</a>
-            </p>
-
-            <h5>Event tagging</h5>
-            <p>
-                In the Setup screen, update the Event field prior to attending any event. Every registrant moving forward will then be tagged with the name of that Event.
-            </p>
-
-            <h5>Extract via email</h5>
-            <p>
-                The Sign In Listing screen will list all registrants that have accumulated over time. From this screen you can edit, update, email, and clear these registrants from the iPad. The email feature will only be provided if the Mail application has been
-                setup to send and receive mail.
-            </p>
+            <a href="https://support.apple.com/en-us/HT202612">https://support.apple.com/en-us/HT202612</a>
         </div>
-    </body>
+
+        <h5>Event tagging</h5>
+        <p>
+            In the Setup screen, update the Event field prior to attending any event. Every registrant moving
+            forward
+            will
+            then be tagged
+            with the name of that Event.
+        </p>
+
+        <h5>Extract via email</h5>
+        <p>
+            The Sign In Listing screen will list all registrants that have accumulated over time. From this screen
+            you
+            can
+            edit, update, email, and clear these registrants from the iPad.
+        </p>
+        <div>The email feature on the Sign In Listing page will only be show if the below 2 things are performed:</div>
+        <ul>
+            <li>The Mail application on the device is setup to send email.</li>
+            <li>The "Preferred destination email address" has been entered on the Setup page.</li>
+        </ul>
+    </div>
+</body>
+
 </html>
